@@ -19,7 +19,7 @@ def home():
     html += "<p>Deployed via ArgoCD on EKS</p>"
     html += "<span class='badge env'>ENV: " + ENV + "</span>"
     html += "<span class='badge version'>VERSION: " + APP_VERSION + "</span>"
-    html += "<p>Automated &middot; Self-Healing &middot; Git-Driven</p>"
+    html += "<p>Automated &middot; Self-Healing &middot; Fully Automatic</p>"
     html += "</div></body></html>"
     return html
 
